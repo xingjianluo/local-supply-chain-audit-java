@@ -1,0 +1,14 @@
+{
+  "entries": [
+    {
+      "vulnId": "LOCAL-CVE-2024-0001",
+      "group": "com.example",
+      "name": "risky-lib",
+      "ranges": [ { "startInclusive": "1.0.0", "endExclusive": "1.2.0" } ],
+      "fixedIn": "1.2.0",
+      "level": "CRITICAL",
+      "title": "risky-lib RCE (severity revised upward after library update)",
+      "description": "Same id, revised severity proves rescans reflect the new library version."
+    }
+  ]
+}

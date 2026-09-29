@@ -1,0 +1,52 @@
+{
+  "entries": [
+    {
+      "vulnId": "LOCAL-CVE-2024-0001",
+      "group": "com.example",
+      "name": "risky-lib",
+      "ranges": [
+        { "startInclusive": "1.0.0", "endExclusive": "1.2.0" }
+      ],
+      "fixedIn": "1.2.0",
+      "level": "HIGH",
+      "title": "risky-lib remote code execution",
+      "description": "Versions 1.0.x up to (excluding) 1.2.0 allow remote code execution via crafted input."
+    },
+    {
+      "vulnId": "LOCAL-CVE-2024-0002",
+      "group": "org.apache.logging",
+      "name": "logkit",
+      "ranges": [
+        { "startInclusive": null, "endExclusive": "2.0.0" }
+      ],
+      "fixedIn": "2.0.0",
+      "level": "CRITICAL",
+      "title": "logkit sensitive data leak",
+      "description": "All versions below 2.0.0 may leak sensitive data in log output."
+    },
+    {
+      "vulnId": "LOCAL-CVE-2024-0003",
+      "group": "com.example",
+      "name": "old-utils",
+      "ranges": [
+        { "startInclusive": "3.1", "endExclusive": "3.4" }
+      ],
+      "fixedIn": "3.4",
+      "level": "MEDIUM",
+      "title": "old-utils denial of service",
+      "description": "Versions 3.1.x-3.3.x may cause denial of service on malformed payloads."
+    },
+    {
+      "vulnId": "LOCAL-CVE-2024-0004",
+      "group": "org.apache.maven.plugins",
+      "name": "build-plugin",
+      "ranges": [
+        { "startInclusive": "1.0", "endExclusive": "1.5" }
+      ],
+      "fixedIn": "1.5",
+      "level": "LOW",
+      "title": "build-plugin information disclosure",
+      "description": "Build plugin versions 1.0-1.4 disclose build metadata."
+    }
+  ]
+}

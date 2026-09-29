@@ -1,0 +1,7 @@
+{
+  "components": [
+    { "group": "com.example", "name": "risky-lib", "version": "1.1.0", "scope": "compile" },
+    { "group": "com.example", "name": "risky-lib", "version": "1.2.0", "scope": "compile" },
+    { "group": "com.example", "name": "old-utils", "version": "3.2", "scope": "runtime" }
+  ]
+}
