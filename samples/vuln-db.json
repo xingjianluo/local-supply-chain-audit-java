@@ -1,0 +1,39 @@
+{
+  "id": "local-vuln-db",
+  "version": "2026.09.30",
+  "rules": [
+    {
+      "id": "CVE-2020-8203",
+      "ecosystem": "npm",
+      "group": "",
+      "name": "lodash",
+      "rangeLow": "4.0.0",
+      "rangeHigh": "4.17.20",
+      "fixedIn": "4.17.20",
+      "title": "Prototype Pollution in lodash",
+      "severity": "high"
+    },
+    {
+      "id": "CVE-2023-32681",
+      "ecosystem": "pypi",
+      "group": "",
+      "name": "requests",
+      "rangeLow": "2.0.0",
+      "rangeHigh": "2.31.0",
+      "fixedIn": "2.31.0",
+      "title": "Unintended leak of Proxy-Authorization header",
+      "severity": "medium"
+    },
+    {
+      "id": "CVE-2022-22965",
+      "ecosystem": "maven",
+      "group": "org.springframework",
+      "name": "spring-beans",
+      "rangeLow": "5.3.0",
+      "rangeHigh": "5.3.18",
+      "fixedIn": "5.3.18",
+      "title": "Spring4Shell RCE",
+      "severity": "critical"
+    }
+  ]
+}

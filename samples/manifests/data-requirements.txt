@@ -1,0 +1,6 @@
+# python service deps
+requests==2.28.0
+flask==3.0.0
+urllib3>=1.26.0
+-r dev-requirements.txt
+this line is broken
